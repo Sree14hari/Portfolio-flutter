@@ -13,6 +13,7 @@ import 'package:my_portfolio/widgets/header_mobile.dart';
 import 'package:my_portfolio/widgets/main_desktop.dart';
 import 'package:my_portfolio/widgets/main_mobpage.dart';
 import 'package:my_portfolio/widgets/skills_desk.dart';
+import 'package:my_portfolio/widgets/skills_mob.dart';
 
 import '../constants/colors.dart';
 
@@ -64,9 +65,8 @@ class _HomePageState extends State<HomePage> {
               MainMobpage()
             ],
             // skills main
-
             Container(
-              height: 500,
+              height: 550,
               width: screenWidth,
               padding: EdgeInsets.fromLTRB(25, 20, 25, 60),
               color: CustomColor.bgLight1,
@@ -88,7 +88,10 @@ class _HomePageState extends State<HomePage> {
                   ),
 
                   //platforms and skills
-                  SkillsDesk(),
+                  if (Constraints.maxWidth > kWidthTablet)
+                    SkillsDesk()
+                  else
+                    SkillsMob(),
                 ],
               ),
             ),

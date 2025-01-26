@@ -10,7 +10,7 @@ class HeaderDesktop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        height: 60.0,
+        height: 50.0,
         margin: EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
         width: double.maxFinite,
         decoration: kHeaderdecoration,

@@ -59,7 +59,7 @@ class SkillsDesk extends StatelessWidget {
                         side: BorderSide(color: CustomColor.bgLight2)),
                     label: Text(skillItems[i]['name']),
                     avatar: Image.asset(skillItems[i]['img'],
-                        width: 80, height: 80),
+                        width: 100, height: 100),
                   ),
               ],
             ),

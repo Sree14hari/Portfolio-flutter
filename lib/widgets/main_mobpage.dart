@@ -14,8 +14,8 @@ class MainMobpage extends StatelessWidget {
     final screenWidth = screenSize.width;
     final screenHeight = screenSize.height;
     return Container(
-      height: screenHeight,
-      constraints: BoxConstraints(minHeight: 560.0),
+      height: 500,
+      constraints: BoxConstraints(minHeight: 500.0),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.center,
