@@ -41,6 +41,15 @@ class SkillsMob extends StatelessWidget {
             height: 20,
             width: double.maxFinite,
           ),
+          Image.asset(
+            "assets/images/hero3.png",
+            width: 100,
+            height: 150,
+          ),
+          SizedBox(
+            height: 20,
+            width: double.maxFinite,
+          ),
           //skills
           Wrap(
             spacing: 10,

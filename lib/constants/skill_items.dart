@@ -21,7 +21,7 @@ const List<Map> skillItems = [
   },
   {
     "img": "assets/images/pp.png",
-    "name": "PowerPoint",
+    "name": "PPoint",
   },
   {
     "img": "assets/images/py.png",

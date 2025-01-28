@@ -22,19 +22,19 @@ List<ProjectUtils> projectItems = [
   ProjectUtils(
     image: "assets/projects/p1.png",
     title: "Repo 1",
-    subtitle: "Its a KTU lab project",
+    subtitle: "DATA STRUCTURES : Its a KTU lab project",
     webLink: "https://github.com/Sree14hari/DATA-STRUCTURES-KTU.git",
   ),
   ProjectUtils(
     image: "assets/projects/p2.png",
     title: "Repo 2",
-    subtitle: "Its a KTU lab project",
+    subtitle: "OS KTU : Its a KTU lab project",
     webLink: "https://github.com/Sree14hari/OS-KTU.git",
   ),
   ProjectUtils(
     image: "assets/projects/p3.png",
     title: "Repo 3",
-    subtitle: "Its a personal portfolio",
+    subtitle: "PORTFOLIO : Its a personal portfolio",
     webLink: "https://github.com/Sree14hari/Portfolio-flutter.git",
   ),
 ];

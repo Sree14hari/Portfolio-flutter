@@ -13,7 +13,7 @@ class ProjectCardWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       clipBehavior: Clip.antiAlias,
-      height: 300,
+      height: 290,
       width: 250,
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10), color: CustomColor.bgLight2),
@@ -43,7 +43,7 @@ class ProjectCardWidget extends StatelessWidget {
             padding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
             child: Text(
               project.subtitle,
-              style: TextStyle(fontSize: 10, color: CustomColor.whiteSecondary),
+              style: TextStyle(fontSize: 12, color: CustomColor.whiteSecondary),
             ),
           ),
           Spacer(),
