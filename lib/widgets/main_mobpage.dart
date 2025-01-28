@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:my_portfolio/constants/colors.dart';
 import 'package:my_portfolio/constants/size.dart';
+import "dart:js" as js;
 
 class MainMobpage extends StatelessWidget {
   const MainMobpage({super.key});
@@ -57,7 +58,10 @@ class MainMobpage extends StatelessWidget {
               style: ElevatedButton.styleFrom(
                 backgroundColor: const Color.fromARGB(255, 0, 0, 0),
               ),
-              onPressed: () {},
+              onPressed: () {
+                js.context.callMethod(
+                    'open', ["https://www.instagram.com/s_ree.har_i/"]);
+              },
               child: const Text(
                 "Get in Touch",
               ),

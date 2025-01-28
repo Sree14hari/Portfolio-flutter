@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_portfolio/constants/colors.dart';
+import "dart:js" as js;
 
 class MainDesktop extends StatelessWidget {
   const MainDesktop({super.key});
@@ -34,7 +35,10 @@ class MainDesktop extends StatelessWidget {
               SizedBox(
                 width: 250,
                 child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    js.context.callMethod(
+                        "open", ["https://www.instagram.com/s_ree.har_i"]);
+                  },
                   child: const Text("Get in Touch"),
                 ),
               ),
