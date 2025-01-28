@@ -245,7 +245,7 @@ class _HomePageState extends State<HomePage> {
                   child: Column(
                     children: [
                       Text(
-                        "Get in Touch",
+                        "Any questions or want to work together?",
                         style: TextStyle(
                           fontSize: 24,
                           fontWeight: FontWeight.bold,

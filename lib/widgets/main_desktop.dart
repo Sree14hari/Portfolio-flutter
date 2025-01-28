@@ -44,6 +44,7 @@ class MainDesktop extends StatelessWidget {
               ),
             ],
           ),
+          // const SizedBox(width: 1),
           Image.asset(
             "assets/images/hero.png",
             width: screenWidth / 8,
