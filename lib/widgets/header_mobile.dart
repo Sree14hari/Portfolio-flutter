@@ -15,6 +15,9 @@ class HeaderMobile extends StatelessWidget {
       decoration: kHeaderdecoration,
       child: Row(
         children: [
+          const SizedBox(
+            width: 15,
+          ),
           SiteLogo(
             onTap: onLogoTap,
           ),

@@ -12,13 +12,20 @@ class SiteLogo extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {},
-      child: Text(
-        "SHR",
-        style: TextStyle(
-            fontSize: 32.0,
-            fontWeight: FontWeight.w900,
-            decoration: TextDecoration.underline,
-            color: CustomColor.yellowSecondary),
+      // child: Text(
+      //   "SHR",
+      //   style: TextStyle(
+      //       fontSize: 32.0,
+      //       fontWeight: FontWeight.w900,
+      //       decoration: TextDecoration.underline,
+      //       color: CustomColor.yellowSecondary),
+      // ),
+
+      child: Image.asset(
+        "assets/images/logo3.png",
+        height: 50,
+        width: 70,
+        alignment: Alignment.centerRight,
       ),
     );
   }
